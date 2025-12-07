@@ -63,12 +63,12 @@ GEMINI_API_KEY = "your-google-api-key" вместо your-google-api-key вста
 ```python
 GEMINI_API_KEY = "your_api_key"     # Ключ Gemini API
 USE_GYRO = True                     # Использовать гироскоп (True/False)
-AUTONOMOUS_MODE = True              # Автономное поведение
+AUTONOMOUS_MODE = True              # Автономное поведение (True/False)
 ```
 #### Безопасность
 ```python
 MAX_MOTOR_SPEED = 75                # Макс. скорость моторов
-OBSTACLE_DISTANCE = 25              # Расстояние до препятствия (см)
+OBSTACLE_DISTANCE = 20              # Расстояние до препятствия (см) для остановки
 ```
 #### Лимиты
 ```python
