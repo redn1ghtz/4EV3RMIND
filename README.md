@@ -36,7 +36,7 @@ ssh robot@ev3dev
 ```
 4) Склонируйте репозиторий и перейдите в папку с проектом:
 ```bash
-wget https://github.com/redn1ghtz/4EV3RMIND.git
+git clone https://github.com/redn1ghtz/4EV3RMIND.git
 cd 4EV3RMIND
 ```
 5) Предоставьте права на выполение файла **pre-install.sh** и запустите его:
