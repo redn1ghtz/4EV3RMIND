@@ -37,8 +37,8 @@ sudo localedef -i ru_RU -c -f UTF-8 ru_RU.UTF-8
 echo "[7/9] Installing system settings..."
 sudo update-locale LANG=ru_RU.UTF-8 LC_MESSAGES=ru_RU.UTF-8
 
-echo "[8/9] Setting chmod +x to run.sh..."
-sudo chmod +x run.sh
+echo "[8/9] Setting chmod +x to g_run.sh..."
+sudo chmod +x g_run.sh
 
 echo "[9/9] Checking the installation..."
 echo "=== Checking locales ==="
