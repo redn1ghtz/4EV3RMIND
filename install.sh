@@ -37,8 +37,8 @@ sudo localedef -i ru_RU -c -f UTF-8 ru_RU.UTF-8
 echo "[7/9] Installing system settings..."
 sudo update-locale LANG=ru_RU.UTF-8 LC_MESSAGES=ru_RU.UTF-8
 
-echo "[8/9] Setting chmod +x to run.sh..."
-sudo chmod +x run.sh
+echo "[8/9] Setting chmod +x to a_run.sh..."
+sudo chmod +x a_run.sh
 
 echo "[9/9] Checking the installation..."
 echo "=== Checking locales ==="
@@ -50,9 +50,9 @@ espeak --voices | grep -i ru || echo "Russian voices not found!"
 echo ""
 echo "===                   The installation is complete!                    ==="
 echo ""
-echo "===                  ADD GEMINI API KEY IN config.py!                  ==="
+echo "===              ADD ALGION API KEY IN algion_config.py!               ==="
 echo "=== You can also configure the robot's behavior in the config.py file. ==="
-echo "===                    Run 4EV3RMIND: sudo ./run.sh                    ==="
+echo "===                  Run 4EV3RMIND: sudo ./a_run.sh                    ==="
 echo ""
 echo "===                      DONE! SYSTEM NOW REBOOT!                      ==="
 sudo reboot
