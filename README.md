@@ -28,7 +28,7 @@
 
 <a id="chapter-3"></a>
 ## Установка
-Выберите нужную API в ветках или перейдите по нужной ссылке (инструкция по каждой находится там): [Google API](https://github.com/redn1ghtz/4EV3RMIND/tree/Google-API) или [Algion API](https://github.com/redn1ghtz/4EV3RMIND/tree/Algion-API)
+Выберите нужную API в ветках или перейдите по нужной ссылке (инструкция по каждой находится там): [Algion API](https://github.com/redn1ghtz/4EV3RMIND/tree/Algion-API), [Google API](https://github.com/redn1ghtz/4EV3RMIND/tree/Google-API) или [OpenRouter API](https://github.com/redn1ghtz/4EV3RMIND/tree/OpenRouter-API)
 
 <a id="chapter-4"></a>
 ## Использование
