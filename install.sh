@@ -37,8 +37,8 @@ sudo localedef -i ru_RU -c -f UTF-8 ru_RU.UTF-8
 echo "[7/9] Installing system settings..."
 sudo update-locale LANG=ru_RU.UTF-8 LC_MESSAGES=ru_RU.UTF-8
 
-echo "[8/9] Setting chmod +x to g_run.sh..."
-sudo chmod +x g_run.sh
+echo "[8/9] Setting chmod +x to o_run.sh..."
+sudo chmod +x o_run.sh
 
 echo "[9/9] Checking the installation..."
 echo "=== Checking locales ==="
@@ -48,11 +48,11 @@ echo "=== Checking TTS ==="
 espeak --voices | grep -i ru || echo "Russian voices not found!"
 
 echo ""
-echo "===                       The installation is complete!                       ==="
+echo "===                         The installation is complete!                         ==="
 echo ""
-echo "===                   ADD GEMINI API KEY IN google_config.py!                 ==="
-echo "=== You can also configure the robot's behavior in the google_config.py file. ==="
-echo "===                       Run 4EV3RMIND: sudo ./g_run.sh                      ==="
+echo "===                 ADD OPENROUTER API KEY IN openrouter_config.py!               ==="
+echo "=== You can also configure the robot's behavior in the openrouter_config.py file. ==="
+echo "===                         Run 4EV3RMIND: sudo ./o_run.sh                        ==="
 echo ""
-echo "===                          DONE! SYSTEM NOW REBOOT!                         ==="
+echo "===                            DONE! SYSTEM NOW REBOOT!                           ==="
 sudo reboot
